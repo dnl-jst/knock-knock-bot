@@ -1,6 +1,6 @@
 {
   "name": "knock-knock-bot",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "monitoring bot for slack",
   "main": "lib/knock-knock-bot.js",
   "bin": {
@@ -28,6 +28,6 @@
     "sqlite3": "^3.1.4"
   },
   "engines": {
-    "node": "6.x"
+    "node": "4.x"
   }
 }
