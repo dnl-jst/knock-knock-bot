@@ -1,0 +1,23 @@
+{
+  "name": "knock-knock-bot",
+  "version": "0.1.1",
+  "description": "monitoring bot for slack",
+  "main": "index.js",
+  "author": {
+    "name": "Daniel Jost",
+    "email": "info@daniel-jost.de"
+  },
+  "homepage": "https://github.com/dnl-jst/knock-knock-bot",
+  "bugs": {
+    "url": "https://github.com/dnl-jst/knock-knock-bot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnl-jst/knock-knock-bot.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "slackbots": "^0.5.1",
+    "sqlite3": "^3.1.4"
+  }
+}
