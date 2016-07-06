@@ -37,3 +37,47 @@ will monitor the url http://www.google.de and notify the user directly if the re
 @knockknockbot: monitor http://www.google.de http
 
 will monitor the url http://www.google.de and notify the whole channel if the request fails
+
+## add a monitor
+
+@knockknockbot: monitor http://www.google.de http
+
+## list monitors
+
+### of current channel
+
+@knockknockbot: monitors
+
+### of all channels
+
+@knockknockbot: monitors all
+
+## remove monitor
+
+remove monitor. you can find it's id in the monitor list.
+
+@knockknockbox: unmonitor <monitor-id>
+
+## monitoring options
+
+### http check
+
+send get request to given url, check availability
+
+@knockknockbot: monitor http://www.google.de http
+
+@knockknockbot: monitor https://www.google.de http
+
+### ping check
+
+ping hosts
+
+@knockknockbot: monitor www.google.de ping
+
+@knockknockbot: monitor www.heise.de ping
+
+### port check
+
+check google mx on port 25
+
+@knockknockbot: monitor aspmx.l.google.com port 25
