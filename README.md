@@ -1,6 +1,6 @@
 # knock-knock-bot
 
-[![Travis](https://img.shields.io/travis/dnl-jst/knock-knock-bot.svg)](https://travis-ci.org/dnl-jst/knock-knock-bot) [![David](https://img.shields.io/david/dnl-jst/knock-knock-bot.svg)](https://david-dm.org/dnl-jst/knock-knock-bot) [![npm](https://img.shields.io/npm/v/knock-knock-bot.svg)](https://www.npmjs.com/package/knock-knock-bot)
+[![Travis](https://img.shields.io/travis/dnl-jst/knock-knock-bot.svg)](https://travis-ci.org/dnl-jst/knock-knock-bot) [![David](https://img.shields.io/david/dnl-jst/knock-knock-bot.svg)](https://david-dm.org/dnl-jst/knock-knock-bot)
 
 knock-knock-bot allows you to create server monitoring from within slack.
 
