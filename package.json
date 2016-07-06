@@ -2,7 +2,13 @@
   "name": "knock-knock-bot",
   "version": "0.1.1",
   "description": "monitoring bot for slack",
-  "main": "index.js",
+  "main": "lib/knock-knock-bot.js",
+  "bin": {
+    "knock-knock-bot": "bin/bot.js"
+  },
+  "scripts": {
+    "start": "node bin/bot.js"
+  },
   "author": {
     "name": "Daniel Jost",
     "email": "info@daniel-jost.de"
@@ -17,6 +23,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "net-ping": "^1.2.0",
     "slackbots": "^0.5.1",
     "sqlite3": "^3.1.4"
   }
