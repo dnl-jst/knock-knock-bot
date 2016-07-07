@@ -1,6 +1,6 @@
 {
   "name": "knock-knock-bot",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "monitoring bot for slack",
   "main": "lib/knock-knock-bot.js",
   "bin": {
@@ -23,9 +23,12 @@
   },
   "license": "MIT",
   "dependencies": {
-    "net-ping": "^1.2.0",
+    "ping": "^0.1.10",
     "slackbots": "^0.5.1",
     "sqlite3": "^3.1.4",
     "validator": "^5.4.0"
+  },
+  "engines": {
+    "node": "4.x"
   }
 }
