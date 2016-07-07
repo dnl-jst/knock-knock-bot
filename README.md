@@ -22,7 +22,7 @@ Pull latest docker image:
 
 Start your machine:
 
-    docker run -d -e "BOT_API_KEY=<YOUR_BOT_API_KEY>" --name my-knock-knock-bot dnljst/knock-knock-bot
+    docker run -d -e "BOT_API_KEY=<YOUR_BOT_API_KEY>" -e "BOT_DB_PATH=/data/kkb.db" -v /data --name my-knock-knock-bot dnljst/knock-knock-bot
 
 ## how-to use
 
