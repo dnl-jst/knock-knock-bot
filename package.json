@@ -25,6 +25,7 @@
   "dependencies": {
     "net-ping": "^1.2.0",
     "slackbots": "^0.5.1",
-    "sqlite3": "^3.1.4"
+    "sqlite3": "^3.1.4",
+    "validator": "^5.4.0"
   }
 }
