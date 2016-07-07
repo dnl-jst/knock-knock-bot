@@ -1,6 +1,6 @@
 {
   "name": "knock-knock-bot",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "monitoring bot for slack",
   "main": "lib/knock-knock-bot.js",
   "bin": {
