@@ -56,7 +56,7 @@ will monitor the url http://www.google.de and notify the whole channel if the re
 
 remove monitor. you can find it's id in the monitor list.
 
-	@knockknockbox: unmonitor <monitor-id>
+	@knockknockbot: unmonitor <monitor-id>
 
 ## monitoring options
 
